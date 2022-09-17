@@ -1,0 +1,21 @@
+---
+enable: true
+title: "Tickets"
+subtitle: >
+          Whether you're looking for a full-time workspace or are just visiting Melbourne,
+           we've got an option for everyone
+itemPrices:
+  - packcage: "Daily"
+    description: >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita pariatur quidem, impedit ipsa repellat sed!
+    price: Venezia
+    buttonTarget: "https://google.com"
+
+  - packcage: "Weekly"
+    description: >
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Libero exercitationem sed eius autem quisquam sapiente?
+    price: Trento
+    buttonTarget: "https://google.it"
+---
