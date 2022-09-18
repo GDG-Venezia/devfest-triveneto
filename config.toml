@@ -20,7 +20,7 @@ title = 'coHub'
   weight = 3
   [[menu.Main]]
   name = "Tickets"
-  url= "#pricing"
+  url= "#ticket"
   weight = 4
   [[menu.Main]]
   name = "Partners"
@@ -28,7 +28,7 @@ title = 'coHub'
   weight = 5
   [[menu.Main]]
   name = "Location"
-  url= "#pricing"
+  url= "#ticket"
   weight = 6
   [[menu.Main]]
   name = "News"
