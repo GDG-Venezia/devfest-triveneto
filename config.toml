@@ -24,7 +24,7 @@ title = 'coHub'
   weight = 4
   [[menu.Main]]
   name = "Partners"
-  url= "#investor"
+  url= "#partner"
   weight = 5
   [[menu.Main]]
   name = "Location"
