@@ -1,0 +1,30 @@
+{{ $locationVenezia := .Site.Params.location.venezia}}
+{{ $locationTrento := .Site.Params.location.trento}}
+<section class="location" id="location">
+  <div class="container-fulid">
+    <div class="row no-gutters">
+      <div class="col-lg-6">
+        <div class="location-aria">
+          <h3>
+            {{ $locationVenezia.address | safeHTML }}
+          </h3>
+          <p>
+            {{ $locationVenezia.openingDesc }}
+          </p>
+          <p>{{ $locationVenezia.openingHours }}</p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="location-aria">
+          <h3>
+            {{ $locationTrento.address | safeHTML }}
+          </h3>
+          <p>
+            {{ $locationTrento.openingDesc }}
+          </p>
+          <p>{{ $locationTrento.openingHours }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
