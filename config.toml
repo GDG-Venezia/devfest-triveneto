@@ -28,23 +28,12 @@ title = 'coHub'
   weight = 5
   [[menu.Main]]
   name = "Location"
-  url= "#ticket"
+  url= "#location"
   weight = 6
   [[menu.Main]]
   name = "News"
   url= "/blog"
   weight = 7
-
-
-  # Sitemap Menu
-  [[menu.sitemap]]
-  name = "Privacy Policy"
-  url = "/privacy/"
-  weight = 1
-  [[menu.sitemap]]
-  name = "Terms"
-  url = "/terms/"
-  weight = 2
 
 [params]
   aboutPageURL = "blog"
