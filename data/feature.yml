@@ -2,9 +2,9 @@
 enable: true
 title: "Why Choose us?"
 subtitle: >
-          We enable people and businesses to work where they want, 
+          We enable people and businesses to work where they want,
           when they want and how they want.
-services:
+features:
   - name: "largest Network"
     description: >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
