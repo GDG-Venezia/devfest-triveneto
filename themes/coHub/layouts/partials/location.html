@@ -4,14 +4,14 @@
   <div class="container-fulid">
     <div class="row no-gutters">
       <div class="col-lg-6">
-        <div class="location-aria">
+        <div class="location-aria" style="background: #474356">
           <h3>
             {{ $locationVenezia.address | safeHTML }}
           </h3>
           <p>
-            {{ $locationVenezia.openingDesc }}
+            {{ $locationVenezia.desc }}
           </p>
-          <p>{{ $locationVenezia.openingHours }}</p>
+          <a href="{{ $locationVenezia.mapsLink }}" target="_BLANK">Open in Maps</a>
         </div>
       </div>
       <div class="col-lg-6">
@@ -20,9 +20,9 @@
             {{ $locationTrento.address | safeHTML }}
           </h3>
           <p>
-            {{ $locationTrento.openingDesc }}
+            {{ $locationTrento.desc }}
           </p>
-          <p>{{ $locationTrento.openingHours }}</p>
+          <a href="{{ $locationTrento.mapsLink }}" target="_BLANK">Open in Maps</a>
         </div>
       </div>
     </div>
