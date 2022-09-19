@@ -2,7 +2,7 @@ baseURL = 'https://cohub-hugo.netlify.app'
 languageCode = 'en-us'
 paginate = 6
 theme= "coHub"
-title = 'coHub'
+title = 'DevFest Triveneto'
 
 [Menu]
   # Main Menu
@@ -36,14 +36,11 @@ title = 'coHub'
   weight = 7
 
 [params]
-  aboutPageURL = "blog"
-  contactLink = "contact"
-  copyright = "© {year} <a href=\"https://staticmania.com/\" target=\"_blank\">StaticMania </a>"
-  fabFormURL =  "https://fabform.io/f/u00kv3-"
-  googleAnalytics = "G-JZ95FEWF9K"
-  logo = "images/logo.png"
-  footerlogo = "images/logo.png"
-  footerDescription = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quia ab, natus fugiat voluptas saepe ipsum animi officiis in molestiae?"
+  copyright = "© {year} <a href=\"https://marcogomiero.com/\" target=\"_blank\">Marco Gomiero </a>"
+  googleAnalytics = ""
+  logo = "images/logo.svg"
+  footerlogo = "images/logo.svg"
+  footerDescription = "Organized by Google Developer Group Venezia, Padova, Verona e Trento"
 
   [params.location]
   title = "Location"
@@ -58,23 +55,5 @@ title = 'coHub'
   address = "Contamination Lab (CLab) Trento <br> <br>"
   desc = "Via Tommaso Gar, 16 Trento, 38122"
   mapsLink = "https://www.google.com/maps/dir//Via%20Tommaso%20Gar%2C%2016%20Trento"
-
-  # Socail icons
-  [[params.social]]
-  icon = "ti-facebook"
-  url = "https://www.facebook.com/"
-  weight = 1
-  [[params.social]]
-  icon = "ti-twitter-alt"
-  url = "https://twitter.com/"
-  weight = 2
-  [[params.social]]
-  icon = "ti-dribbble"
-  url = "https://dribbble.com/"
-  weight = 3
-  [[params.social]]
-  icon = "ti-instagram"
-  url = "https://www.instagram.com/"
-  weight = 4
 
 
