@@ -52,7 +52,7 @@ title = 'DevFest Triveneto'
   mapsLink = "https://www.google.com/maps/dir//Via%20Torino%2C%20155%20Mestre%2C%20Venezia%20VE"
 
   [params.location.trento]
-  address = "Contamination Lab (CLab) Trento <br> <br>"
+  address = "Contamination Lab (CLab) Trento"
   desc = "Via Tommaso Gar, 16 Trento, 38122"
   mapsLink = "https://www.google.com/maps/dir//Via%20Tommaso%20Gar%2C%2016%20Trento"
 
