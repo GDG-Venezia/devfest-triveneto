@@ -1,21 +1,16 @@
 ---
 enable: true
-title: "Tickets"
+title: "Biglietti"
 subtitle: >
-          Whether you're looking for a full-time workspace or are just visiting Melbourne,
-           we've got an option for everyone
+          Per accedere alla DevFest è richiesto un biglietto gratuito. Prenota ora il tuo posto nella tua location preferita.
 itemPrices:
-  - packcage: "Daily"
-    description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita pariatur quidem, impedit ipsa repellat sed!
+  - description: >
+                Biglietto valido per l'ingresso a Venezia
     price: Venezia
-    buttonTarget: "https://google.com"
+    buttonTarget: "https://gdg.community.dev/events/details/google-gdg-venezia-presents-devfest-triveneto-2022/"
 
-  - packcage: "Weekly"
-    description: >
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Libero exercitationem sed eius autem quisquam sapiente?
+  - description: >
+                Biglietto valido per l'ingresso a Trento<br><br>
     price: Trento
-    buttonTarget: "https://google.it"
+    buttonTarget: "https://gdg.community.dev/events/details/google-gdg-trento-presents-devfest-triveneto-2022/"
 ---

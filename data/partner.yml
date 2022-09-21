@@ -2,8 +2,7 @@
 enable: true
 title: "Partners"
 subtitle: >
-          Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed,
-          convallis at tellus. Nulla quis lorem ut libero malesuada feugiat.
+          DevFest Triveneto è resa possibile grazie al contributo dei nostri partners:
 partner:
   - name: "Google"
     image: "images/partners/google.svg"

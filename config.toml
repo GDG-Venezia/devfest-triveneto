@@ -1,23 +1,23 @@
 baseURL = 'https://cohub-hugo.netlify.app'
-languageCode = 'en-us'
+languageCode = 'it-IT'
 paginate = 6
 theme= "coHub"
 title = 'DevFest Triveneto'
 
 [Menu]
   # Main Menu
-  [[menu.Main]]
-  name = "Speakers"
-  url= "/speakers/"
-  weight = 1
-  [[menu.Main]]
-  name = "Agenda Venezia"
-  url= "/agenda-venezia/"
-  weight = 2
-  [[menu.Main]]
-  name = "Agenda Trento"
-  url= "/agenda-trento/"
-  weight = 3
+#  [[menu.Main]]
+#  name = "Speakers"
+#  url= "/speakers/"
+#  weight = 1
+#  [[menu.Main]]
+#  name = "Agenda Venezia"
+#  url= "/agenda-venezia/"
+#  weight = 2
+#  [[menu.Main]]
+#  name = "Agenda Trento"
+#  url= "/agenda-trento/"
+#  weight = 3
   [[menu.Main]]
   name = "Tickets"
   url= "#ticket"
@@ -31,20 +31,19 @@ title = 'DevFest Triveneto'
   url= "#location"
   weight = 6
   [[menu.Main]]
-  name = "News"
-  url= "/blog"
-  weight = 7
+#  name = "News"
+#  url= "/blog"
+#  weight = 7
 
 [params]
   copyright = "© {year} <a href=\"https://marcogomiero.com/\" target=\"_blank\">Marco Gomiero </a>"
   googleAnalytics = ""
   logo = "images/logo.svg"
   footerlogo = "images/logo.svg"
-  footerDescription = "Organized by Google Developer Group Venezia, Padova, Verona e Trento"
+  footerDescription = "Organized by Google Developer Group <a href=\"https://gdg.community.dev/gdg-venezia/\" target=\"BLANK\">Venezia</a>, <a href=\"https://gdg.community.dev/gdg-padova/\" target=\"BLANK\">Padova</a>, <a href=\"https://gdg.community.dev/gdg-verona/\" target=\"BLANK\">Verona</a> e <a href=\"https://gdg.community.dev/gdg-trento/\" target=\"BLANK\">Trento</a>."
 
   [params.location]
   title = "Location"
-  desc = "This is a description for the location"
 
   [params.location.venezia]
   address = "Campus Scientifico Università Ca' Foscari"

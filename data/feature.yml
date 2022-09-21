@@ -2,37 +2,30 @@
 enable: true
 title: "Che cos'è DevFest Triveneto?"
 subtitle: >
-          We enable people and businesses to work where they want,
-          when they want and how they want.
+          Ritorna la DevFest in Veneto: il momento di ritrovo tra developer in cui condividere la propria passione ed esperienza per il mondo dello sviluppo!<br><br>Quest’anno viene organizzata da 4 diversi GDG (Venezia, Padova, Verona e Trento) in due location in contemporanea: Venezia e Trento.
 features:
-  - name: "largest Network"
+  - name: "DevFest"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                Le DevFest sono eventi community organizzati dai Google Developer Groups che offrono talks, workshops e momenti di networking su prodotti Google e non.
     icon: "ti-view-grid"
-  - name: "All Sizes And Budget"
+  - name: "Google Developer Group"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
-    icon: "ti-infinite"
-  - name: "Dedicated Account Manager"
+                I Google Developer Group (GDG) sono gruppi di developer che hanno interesse nelle tecnologie Google: tutto quello che spazia da Android, Web, Cloud, Flutter, e molto altro.
+    icon: "ti-desktop"
+  - name: "Quando?"
     description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
-    icon: "ti-help-alt"
-  - name: "Easy Payment"
-    description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
-    icon: "ti-credit-card"
-  - name: "Dedicated Locker"
-    description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
-    icon: "ti-lock"
-  - name: "Personalization"
-    description: >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vel mollitia sit.
-                Dicta maxime ullam quos sapiente eveniet odio accusamus.
+                Sabato 22 Ottobre 2022
     icon: "ti-image"
+  - name: "2 Location"
+    description: >
+                La DevFest si svolgerà su due sedi contemporaneamente: Venezia e Trento.
+    icon: "ti-location-pin"
+  - name: "2 Track"
+    description: >
+                Ogni sede ha a disposizione due sale: una dedicata alla conferenze con speaker in presenza e una dedicata allo streaming dell’altra sede.
+    icon: "ti-blackboard"
+  - name: "4 GDG"
+    description: >
+        La DevFest 2022 è organizzata da 4 diversi GDG del Triveneto: Venezia, Padova, Verona e Trento.
+    icon: "ti-user"
 ---
