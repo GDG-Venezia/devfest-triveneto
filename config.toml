@@ -36,6 +36,7 @@ title = 'DevFest Triveneto'
 #  weight = 7
 
 [params]
+  description = "DevFest Triveneto 2022 - 22 Ottobre - Venezia, Trento"
   copyright = "© {year} <a href=\"https://marcogomiero.com/\" target=\"_blank\">Marco Gomiero </a>"
   googleAnalytics = ""
   logo = "images/logo.svg"
