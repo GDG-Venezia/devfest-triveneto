@@ -1,4 +1,4 @@
-baseURL = 'https://cohub-hugo.netlify.app'
+baseURL = 'https://gdg-venezia.github.io/devfest-triveneto/'
 languageCode = 'it-IT'
 paginate = 6
 theme= "coHub"
