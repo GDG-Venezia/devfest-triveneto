@@ -39,6 +39,7 @@ title = 'DevFest Triveneto'
   description = "DevFest Triveneto 2022 - 22 Ottobre - Venezia, Trento"
   copyright = "© {year} <a href=\"https://marcogomiero.com/\" target=\"_blank\">Marco Gomiero </a>"
   googleAnalytics = ""
+  image = "images/logo.png"
   logo = "images/logo.svg"
   footerlogo = "images/logo.svg"
   footerDescription = "Organized by Google Developer Group <a href=\"https://gdg.community.dev/gdg-venezia/\" target=\"BLANK\">Venezia</a>, <a href=\"https://gdg.community.dev/gdg-padova/\" target=\"BLANK\">Padova</a>, <a href=\"https://gdg.community.dev/gdg-verona/\" target=\"BLANK\">Verona</a> e <a href=\"https://gdg.community.dev/gdg-trento/\" target=\"BLANK\">Trento</a>."
