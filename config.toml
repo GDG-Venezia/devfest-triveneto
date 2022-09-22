@@ -1,4 +1,4 @@
-baseURL = 'https://gdg-venezia.github.io/devfest-triveneto/'
+baseURL = 'https://www.devfest-triveneto.com'
 languageCode = 'it-IT'
 paginate = 6
 theme= "coHub"
@@ -6,18 +6,18 @@ title = 'DevFest Triveneto'
 
 [Menu]
 #   Main Menu
-  [[menu.Main]]
-  name = "Speakers"
-  url= "/speakers/"
-  weight = 1
-  [[menu.Main]]
-  name = "Agenda Venezia"
-  url= "/agenda-venezia/"
-  weight = 2
-  [[menu.Main]]
-  name = "Agenda Trento"
-  url= "/agenda-trento/"
-  weight = 3
+  # [[menu.Main]]
+  # name = "Speakers"
+  # url= "/speakers/"
+  # weight = 1
+  # [[menu.Main]]
+  # name = "Agenda Venezia"
+  # url= "/agenda-venezia/"
+  # weight = 2
+  # [[menu.Main]]
+  # name = "Agenda Trento"
+  # url= "/agenda-trento/"
+  # weight = 3
   [[menu.Main]]
   name = "Tickets"
   url= "#ticket"
