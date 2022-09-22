@@ -1,5 +1,4 @@
-{{with .Site.Data.blogSection}}
-{{if .enable}}
+{{with .Site.Data.speakerSection}} {{if .enable}}
 <section class="blog" id="blog">
   <div class="container">
     <div class="row">
@@ -11,23 +10,26 @@
     </div>
     <div class="row justify-content-center">
       {{ range first 3 (where $.Site.RegularPages "Type" "speakers") }}
-    <div class="col-lg-4 col-md-6">
-        <article class="blog-post">
-           <img src="{{ .Params.photo | absURL }}" alt="blog-images">
-          <div class="blog-content">
-             <h3>{{ .Params.name }}</h3>
-             <p> {{.Params.jobTitle}} </p>
-             <h3><b> {{.Params.presentation.title }} </b></h3>
-             <p> {{.Params.location}} </p>
-          </div>
-        </article>
+      <div class="col-lg-4 col-md-6">
+        <a href="{{ .Permalink }}">
+          <article class="blog-post">
+            <img src="{{ .Params.photo | absURL }}" alt="blog-images" />
+            <div class="blog-content">
+              <h3>{{ .Params.name }}</h3>
+              <p>{{.Params.jobTitle}}</p>
+              <h3><b> {{.Params.presentation.title }} </b></h3>
+            </div>
+            <div class="blog-tip">{{.Params.location}}</div>
+          </article>
+        </a>
       </div>
       {{end}}
       <div class="col-12 text-center">
-        <a href="{{.buttonTarget | absURL}}" class="btn btn-primary">See all speakers</a>
+        <a href="{{.buttonTarget | absURL}}" class="btn btn-primary"
+          >See all speakers</a
+        >
       </div>
     </div>
   </div>
 </section>
-{{end}}
-{{end}}
+{{end}} {{end}}

@@ -5,19 +5,19 @@ theme= "coHub"
 title = 'DevFest Triveneto'
 
 [Menu]
-  # Main Menu
-#  [[menu.Main]]
-#  name = "Speakers"
-#  url= "/speakers/"
-#  weight = 1
-#  [[menu.Main]]
-#  name = "Agenda Venezia"
-#  url= "/agenda-venezia/"
-#  weight = 2
-#  [[menu.Main]]
-#  name = "Agenda Trento"
-#  url= "/agenda-trento/"
-#  weight = 3
+#   Main Menu
+  [[menu.Main]]
+  name = "Speakers"
+  url= "/speakers/"
+  weight = 1
+  [[menu.Main]]
+  name = "Agenda Venezia"
+  url= "/agenda-venezia/"
+  weight = 2
+  [[menu.Main]]
+  name = "Agenda Trento"
+  url= "/agenda-trento/"
+  weight = 3
   [[menu.Main]]
   name = "Tickets"
   url= "#ticket"

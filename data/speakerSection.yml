@@ -1,5 +1,5 @@
 ---
-enable: false
+enable: true
 title: "Latest news and updates"
-buttonTarget: blog
+buttonTarget: speakers
 ---

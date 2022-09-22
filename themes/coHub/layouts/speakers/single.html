@@ -3,22 +3,21 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <div class="post-title">
-          <h2>{{.Params.name }}</h2>
-          <p> {{ .Params.jobTitle }} </p>
-        </div>
-        <div class="post-image">
-          <img src="{{ .Params.photo | absURL}}" alt="feature-image">
+        <div class="blog-header">
+          <div class="post-image">
+            <img src="{{ .Params.photo | absURL}}" alt="feature-image" />
+          </div>
+          <div class="post-title">
+            <div class="tip">{{ .Params.location}}</div>
+            <h2>{{.Params.name }}</h2>
+            <p>{{ .Params.jobTitle }}</p>
+          </div>
         </div>
         <div class="post-body">
-        <h3> Location </h3>
-         <p> {{ .Params.location }} </p>
-         <h3> Time </h3>
-         <p> {{ .Params.presentation.time }} </p>
-         <h3> {{ .Params.presentation.title }} </h3>
-         <p> {{ .Params.presentation.abstract }} </p>
-         <h3> Speaker Bio: </h3>
-         <p> {{ .Params.bio }} </p>
+          <h3>{{ .Params.presentation.title }}</h3>
+          <p>{{ .Params.presentation.abstract }}</p>
+          <h3>Speaker Bio:</h3>
+          <p>{{ .Params.bio }}</p>
         </div>
       </div>
     </div>
