@@ -7,10 +7,35 @@
           <div class="post-image">
             <img src="{{ .Params.photo | absURL}}" alt="feature-image" />
           </div>
-          <div class="post-title">
-            <div class="tip">{{ .Params.location}}</div>
-            <h2>{{.Params.name }}</h2>
-            <p>{{ .Params.jobTitle }}</p>
+        <div>
+           <div class="post-title">
+             <div class="tip">{{ .Params.location}}</div>
+             <h2>{{.Params.name }}</h2>
+             <p>{{ .Params.jobTitle }}</p>
+           </div>
+             <div style="overflow: hidden;justify-content:space-around;">
+               {{- if (.Params.twitter) }}
+                 <div style="display: inline-block;margin-right: 10px;">
+                  <a href="{{ .Params.twitter }}" target="BLANK">
+                   <i class="ti-twitter-alt" aria-hidden="true"></i>
+                  </a>
+                 </div>
+               {{- end}}
+               {{- if (.Params.linkedin) }}
+                 <div style="display: inline-block;margin-right: 10px;">
+                   <a href="{{ .Params.linkedin }}" target="BLANK">
+                     <i class="ti-linkedin" aria-hidden="true"></i>
+                   </a>
+                 </div>
+               {{- end}}
+               {{- if (.Params.website) }}
+                 <div style="display: inline-block;margin-right: 10px;">
+                   <a href="{{ .Params.website }}" target="BLANK">
+                     <i class="ti-world" aria-hidden="true"></i>
+                   </a>
+                 </div>
+               {{- end}}
+             </div>
           </div>
         </div>
         <div class="post-body">
