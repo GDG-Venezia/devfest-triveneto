@@ -9,20 +9,23 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      {{ range first 3 (where $.Site.RegularPages "Type" "speakers") }}
-      <div class="col-lg-4 col-md-6">
-        <a href="{{ .Permalink }}">
-          <article class="blog-post">
-            <img src="{{ .Params.photo | absURL }}" alt="blog-images" />
-            <div class="blog-content">
-              <h3>{{ .Params.name }}</h3>
-              <p>{{.Params.jobTitle}}</p>
-              <h3><b> {{.Params.presentation.title }} </b></h3>
-            </div>
-            <div class="blog-tip">{{.Params.location}}</div>
-          </article>
-        </a>
-      </div>
+      {{ $pages := where $.Site.RegularPages "Type" "speakers" }}
+      {{ range $pages }}
+        {{if .Params.featured }}
+          <div class="col-lg-4 col-md-6">
+            <a href="{{ .Permalink }}">
+              <article class="blog-post">
+                <img src="{{ .Params.photo | absURL }}" alt="blog-images" />
+                <div class="blog-content">
+                  <h3>{{ .Params.name }}</h3>
+                  <p>{{.Params.jobTitle}}</p>
+                  <h3><b> {{.Params.presentation.title }} </b></h3>
+                </div>
+                <div class="blog-tip">{{.Params.location}}</div>
+              </article>
+            </a>
+          </div>
+         {{ end }}
       {{end}}
       <div class="col-12 text-center">
         <a href="{{.buttonTarget | absURL}}" class="btn btn-primary"
