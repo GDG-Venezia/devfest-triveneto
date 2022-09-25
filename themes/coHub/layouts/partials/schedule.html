@@ -11,8 +11,10 @@
       <tr>
         <td class="schedule-time">{{ .Params.time }}</td>
         <td class="schedule-slot">
-          {{ .Params.name }}
-          <span class="speakers-company">{{ .Params.speaker }}</span>
+          <a href="{{ .Params.link | absURL }}">
+            {{ .Params.name }}
+            <span class="speakers-company">{{ .Params.speaker }}</span>
+          </a>
         </td>
       </tr>
       {{ else }}
