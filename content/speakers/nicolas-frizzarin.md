@@ -1,4 +1,5 @@
 ---
+title: "Nicolas Frizzarin - DevFest Triveneto"
 name: "Nicolas Frizzarin"
 photo: "/images/speakers/nicolas_frizzarin.png"
 bio: "Nicolas Frizzarin is a FrontEnd Developer and User Interface Designer from Metz, France. He is a Developer Advocate for SFEIR Luxembourg and help team to create great web application since 6 years.

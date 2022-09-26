@@ -46,7 +46,7 @@
           <h3>{{ .Params.presentation.title }}</h3>
           <p>{{ .Params.presentation.abstract | safeHTML }}</p>
           <h3>Speaker Bio:</h3>
-          <p>{{ .Params.bio }}</p>
+          <p>{{ .Params.bio | safeHTML }}</p>
         </div>
       </div>
     </div>

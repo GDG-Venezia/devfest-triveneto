@@ -1,4 +1,5 @@
 ---
+title: "Lorenzo De Francesco - DevFest Triveneto"
 name: "Lorenzo De Francesco"
 photo: "/images/speakers/lorenzo_francesco.jpeg"
 bio: "I work at Step4Business (AzimutMarketplace in Italy), an international fintech platform (ES, BR,IT) where I manage a team of developers and design the whole international software architecture to make it scalable and performant.
