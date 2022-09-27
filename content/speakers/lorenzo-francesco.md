@@ -9,7 +9,7 @@ jobTitle: "IT Manager @Step4Business"
 linkedin: "https://www.linkedin.com/in/lorenzodefrancesco/"
 website: "https://www.youtube.com/channel/UCgyEvM9xDB1N6Z38q2WScVA"
 location: "Venezia"
-featured: true
+featured: false
 lang: it
 presentation:
     title: "How to handle a multicountry enterprise platform"
