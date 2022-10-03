@@ -7,7 +7,7 @@ jobTitle: "Freelance IT consultant"
 linkedin: "https://www.linkedin.com/in/nicolapedot/"
 website: "https://www.informatelier.it/"
 location: "Trento"
-featured: false
+featured: true
 lang: it
 presentation:
     title: "Domain Driven Tests (in Kotlin)"
