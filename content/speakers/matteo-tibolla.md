@@ -15,7 +15,7 @@ jobTitle: "UX Researcher - Consulente Digital Marketing"
 linkedin: "https://www.linkedin.com/in/matteotibolla/"
 website: "https://www.youtube.com/channel/UCxJMidRCXDP96HW9rmkAbmw"
 location: "Trento"
-featured: true
+featured: false
 lang: it
 presentation:
     title: "3 UX Mistakes That Anger Your Online Customers"

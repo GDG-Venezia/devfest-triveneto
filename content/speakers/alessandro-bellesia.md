@@ -3,7 +3,7 @@ title: "Alessandro Bellesia - DevFest Triveneto"
 name: "Alessandro Bellesia"
 photo: "/images/speakers/alessandro-bellesia.jpeg"
 bio: "Motorcyclist and web developer"
-jobTitle: " Front-end Technical Lead @ 24/Consulting S.r.l."
+jobTitle: "Front-end Technical Lead @ 24/Consulting S.r.l."
 linkedin: "https://www.linkedin.com/in/alessandrobellesia/"
 location: "Trento"
 featured: true
