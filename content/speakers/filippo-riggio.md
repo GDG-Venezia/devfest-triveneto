@@ -12,7 +12,7 @@ location: "Trento"
 featured: true
 lang: it
 presentation:
-    title: "Repository Pattern e Service Layer, come sono rimasto fulmiinato sulla via di Damasco"
+    title: "Repository Pattern e Service Layer, come sono rimasto fulminato sulla via di Damasco"
     abstract: "Nello sviluppo di applicativi, capita spesso di utilizzare il pattern MVC (probabilmente il pattern più conosciuto).
 <br><br>
 Al crescere delle dimensioni, però, questo pattern risulta \"stretto\"; con limiti di architettura all'aumentare del numero di funzionalità.
