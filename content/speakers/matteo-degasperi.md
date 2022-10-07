@@ -1,7 +1,7 @@
 ---
 title: "Matteo Degasperi - DevFest Triveneto"
 name: "Matteo Degasperi"
-photo: "/images/speakers/matteo-degasperi.jpeg"
+photo: "/images/speakers/matteo_degasperi.jpeg"
 bio: "Giovane imprenditore spinto da una forte motivazione nel mettersi in gioco e guidato da requisiti imprescindibili: una combinazione di creatività e innovazione, caratterizzata da idee chiari e originali, legate insieme dall'ottimismo, dalla flessibilità e capacità di adattarsi alle circostanze, assumendosi le proprie responsabilità.
 <br><br>
 Fondatore dell'azienda \"Transform to Digital\".
