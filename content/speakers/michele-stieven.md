@@ -9,7 +9,7 @@ jobTitle: Freelance Consultant, Angular GDE
 linkedin: "https://www.linkedin.com/in/michelestieven"
 twitter: "https://www.twitter.com/MicheleStieven"
 website: "https://accademia.dev"
-location: "Venezia"
+location: "Trento"
 featured: false
 lang: it
 presentation:

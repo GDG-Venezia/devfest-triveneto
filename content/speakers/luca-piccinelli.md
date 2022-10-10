@@ -12,7 +12,7 @@ Perseguo costantemente l'automiglioramento e continuo a studiare la nostra disci
 jobTitle: "Software Developer @ CompuGroup Medical"
 linkedin: "https://www.linkedin.com/in/lucapiccinelli/"
 website: "https://medium.com/@luca-picci"
-location: "Venezia"
+location: "Trento"
 featured: false
 lang: it
 presentation:
