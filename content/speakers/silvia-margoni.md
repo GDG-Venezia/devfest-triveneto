@@ -12,7 +12,7 @@ location: "Trento"
 featured: false
 lang: it
 presentation:
-    title: "Neuromarketing per una trattativa di impatto"
+    title: "Neuro-selling: come farsi comprare secondo la scienza"
     abstract: "Se potessi scegliere con chi lavorare, a parità di condizioni preferiresti partner simpatici o insopportabili? La bella notizia è che il tuo cliente ed il tuo capo risponderebbero esattamente come te! Economia comportamentale, psicologia e neuroscienze ci svelano come creare nella mente del tuo ascoltatore un’immagine empatica ma vincente.<br>
 In questa Masterclass infatti imparerai:<br>  
 - Come improvvisare una conversazione con uno sconosciuto e ricordarti per sempre del suo nome;<br>
