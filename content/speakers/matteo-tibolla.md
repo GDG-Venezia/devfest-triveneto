@@ -10,6 +10,6 @@ location: "Trento"
 featured: false
 lang: it
 presentation:
-    title: "3 Errori di UX che fanno arrabbiare i tuoi clienti online"
+    title: "3 errori di UX che fanno arrabbiare i tuoi clienti online"
     abstract: "Attraverso alcuni casi studio verrà presentato un metodo innovativo per analizzare e testare un sito, app o portale che combina tecniche di usabilità \"classiche\" e un approccio scientifico, così da superare i difetti delle analisi esistenti. Lo speech illustra anche le soluzioni ai 3 errori di UX più comuni."
 ---
