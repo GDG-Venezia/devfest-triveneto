@@ -1,4 +1,4 @@
-baseURL = 'https://www.devfest-triveneto.it'
+baseURL = 'http://devfest-triveneto.gdgvenezia.it/'
 languageCode = 'it-IT'
 paginate = 6
 theme= "coHub"
